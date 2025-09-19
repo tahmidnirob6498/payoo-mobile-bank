@@ -8,7 +8,7 @@ event.preventDefault()
  if(len===11){
     
    if(pass.value==='69269'){
-     window.location.href='./main.html'
+     window.location.href='main.html'
    } 
    else{
     alert('pin')
