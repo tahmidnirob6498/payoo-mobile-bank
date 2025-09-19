@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-slate-800">
+    <section class="max-w-sm min-h-screen mx-auto bg-gray-200 relative">
+    <div class="flex items-center justify-center relative">
+        <img src="./assets/bg.png"  alt="" class="w-48 mt-12">
+        <img src="./assets/Group.png" alt="" class="w-15 absolute">
+    </div>
+    <div>
+        <div class="hero absolute bottom-10">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    <form>
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <div class="card-body">
+        <fieldset class="fieldset">
+          <label class="label">Account Number</label>
+          <input value="01323426430" type="text" class="input" placeholder="Account Number" id="num" required />
+          <label class="label">Password</label>
+          <input value="69269" type="password" class="input" placeholder="Password" id="pass" required/>
+          <div><a class="link link-hover">Forgot password?</a></div>
+          <button id='btn-click' class="btn btn-neutral mt-4">Login</button>
+        </fieldset>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+    </div>
+    </section>
+<script src="/script/login.js"></script>    
+</body>
+</html>
