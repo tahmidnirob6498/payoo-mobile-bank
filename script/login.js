@@ -1,10 +1,9 @@
 document.getElementById("btn-click").addEventListener('click',function(event){
-
+event.preventDefault()
 const num=document.getElementById('num')
 const pass=document.getElementById('pass')
 const values=num.value;
 const len=values.length;
-event.preventDefault()
  if(len===11){
     
    if(pass.value==='69269'){
@@ -14,6 +13,7 @@ event.preventDefault()
    else{
     alert('pin')
    }
+
 
  }
  else{
