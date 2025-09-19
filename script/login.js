@@ -8,7 +8,8 @@ event.preventDefault()
  if(len===11){
     
    if(pass.value==='69269'){
-     window.location.href='main.html'
+     window.location.href='https://tahmidnirob6498.github.io/payoo-mobile-bank/main.html';
+
    } 
    else{
     alert('pin')
